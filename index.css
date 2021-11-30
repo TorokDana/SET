@@ -1,0 +1,184 @@
+#jateklap {
+    display: none;
+  }
+
+  #helpers {
+    display: none;
+  }
+
+  
+ 
+  #isSet , #plusz3 , #automata ,  #whereSet{
+    background-color: rgb(255, 251, 0);
+    
+  }
+
+  #isSet:hover , #plusz3:hover  ,  #whereSet:hover{
+    background-color:orangered;
+    
+  }
+  
+
+
+html {
+    background-color:skyblue;
+    	
+    						
+
+}
+	  
+body {
+	font-family: 'Times New Roman', Verdana, Serif;
+    font-size: 120%;
+    margin: 0 auto;
+    padding: 20px;
+	padding-bottom:0;
+    background-color: white;
+    color:black;
+	width:80%;
+	max-width:1200px;
+
+    height: 100%;
+    position: relative;
+	border-radius:5px;
+	margin-bottom:30px;
+	margin-top:30px;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.288);
+}
+
+footer{
+	text-align:center;
+	font-size:80%;
+	font-family:Arial, Verdana, Helvetica, sans-serif;
+	
+	border-top:2px dotted black;
+	
+    margin-top:20px;
+    margin-bottom:20px;
+	padding:0;
+	padding-left:10px;
+}
+
+#form{
+	
+	padding:30px;
+	margin:5px;    
+    background-color: rgb(110, 223, 217);  
+      
+  border-radius:13px;
+  max-width: 500px;
+}
+
+textarea {
+    resize: none;
+    text-align:center;  
+  }
+
+  #start{
+    font-family: 'Times New Roman', Verdana, Serif;
+    font-size: 150%;
+    border-radius:40px;
+    height:80px;
+    width:80px;
+    background-color:rgb(82, 255, 82); 
+
+    
+  }
+
+  #start:hover{
+    
+    background-color:#1c922c; 
+    color:white;
+
+    
+  }
+
+  h1{
+    text-align: center;
+    font-size: 300%;
+    color: rgb(82, 255, 82);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    margin : 10px;
+    padding : 10px;
+    
+  }
+
+
+  #gamernumber{
+    text-align:center; 
+    width:50px;
+
+  }
+
+  
+
+  p > button{
+    
+    height: 40px;
+    background-color: rgb(82, 255, 82);
+    border-radius:7px;
+    text-align:center;
+    font-family: 'Times New Roman', Verdana, Serif;
+    font-size: 120%;
+    
+
+  }
+
+  p>button:hover{    
+      
+      background-color:#1c922c;
+  }
+
+
+a:link{
+	color:#1c922c;
+	text-decoration:underline;	
+}
+
+a:visited{
+	color:green;
+
+	text-decoration:underline;	
+}
+
+a:hover{
+	font-weight: bold;
+	text-decoration:underline;	
+}
+
+canvas {
+
+    border: 2px solid gray;
+    border-radius: 10px;
+  
+}
+
+td:hover{
+    background-color: rgb(110, 223, 217);
+    text-align:center;
+
+
+}
+
+.current{
+ background-color: lightseagreen;;
+}
+
+.slidecontainer {
+  width: 100%; /* Width of the outside container */
+}
+
+/* The slider itself */
+.slider {
+
+  width: 100%; /* Full-width */
+
+
+}
+
+
+
+
+
+
+

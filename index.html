@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <h1>SET</h1>
+  
+    
+
+    <div id="kezdolap">  
+        <a href=https://fejlesztojatekvilag.hu/uploaded/set_magyar_szabaly.pdf target="_blank">Az eredeti szabály itt olvasható.</a>
+
+        <h3>Egyéb speciális szabályok:</h3>
+        <ul>
+            <li>A játékosnak 10 másodperce van a set kiválasztására</li>
+            <li>Ha letelt az idő, akkor abban a körben az adott játékos már nem jöhet</li>
+            <li>A játékot verseny és gyakorló módban lehet játszani</li>
+            <li>A játékban maximum 10 játékos vehet részt</li>
+        </ul>
+
+        <div id="form">
+
+            
+
+            Kérlek válassz játékmódot:
+            <input type=radio name="mode" value="verseny"> Verseny
+            <input type=radio name="mode" id="gyakorlo" value="gyakorlo"> Gyakorló
+            <button id="selectmod">Beállít</button><br>
+
+            <ul id="helpers">
+                
+                <li>+3 kártya: <input type="checkbox" id="1m"></li>
+                <li>automata kiegészítés: <input type="checkbox" id="2m" checked></li>
+                <li>van-e set: <input type="checkbox" id="3m"></li>
+                <li>hol van set: <input type="checkbox" id="4m"></li>
+                
+                
+                
+                
+
+
+            </ul>
+
+           
+
+
+
+          <div id="Jatekosok">
+              <label >Játékosok száma:</label>
+              <input type="number" id="gamernumber" value="1" name="points" step="1" min="1" max="10">
+              <button id="addnumber">Beállít</button>
+
+                <div id="gombs"></div>
+                
+
+            
+
+                <br>
+                <button id="start">Start</button>
+          </div>
+
+
+            
+        </div>
+
+    </div>
+
+
+
+    <div id="jateklap" >
+
+        <p id="timer"></p>
+        <ul id="infopanel"></ul>
+        <p id="playerbuttons"></p>
+        <p id="helperbuttons">
+            <button id="plusz3">+3 kártya</button>
+            <button id="automata">Automata kiegészítés aktív</button>
+            <button id="isSet">Van Set?</button>
+            <button id="whereSet">Hol van Set?</button>
+        </p>
+
+        <table id="gameTable">
+            <tr id="row0">
+               
+            </tr>
+            <tr id="row1">
+    
+            </tr>
+            <tr id="row2">
+     
+            </tr>
+        
+
+        </table>
+
+        <div id="slidecontainer">
+            
+          </div>
+
+    </div>
+
+    <script src='index.js'></script>
+
+<footer>
+<p>Készítette: Török Dana</p>
+
+</footer>
+</body>
+
+</html>
